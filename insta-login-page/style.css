@@ -1,0 +1,160 @@
+* body {
+    border-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-c0ntent-center {
+    justify-content: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.image-space {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.changing-img {
+    position: absolute;
+    left: 9.5rem;
+    top: 6.4rem;
+}
+
+.main-container {
+    width: 50%;
+}
+
+.login-container {
+    width: 350px;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 400px; */
+    border: 1px solid #8080804f;
+    margin-top: 35px;
+    border-radius: 1px;
+}
+
+.insta-name {
+    text-align: center;
+    margin: 22px auto 40px;
+}
+
+.user-input {
+    width: 285px;
+    padding: 9px 0 7px 8px;
+    margin-top: 10px;
+}
+
+.user-input:focus {
+    border: 1px solid gray;
+    outline: none;
+}
+
+.login-button {
+    width: 297px;
+    padding: 9px 0 7px 8px;
+    background-color: #b2dffc;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+    color: white;
+}
+
+.border-line {
+    width: 297px;
+    border-top: 1px solid grey;
+    display: flex;
+    justify-content: center;
+}
+
+.border-line-para {
+    position: relative;
+    top: -26px;
+    text-align: center;
+    width: 35px;
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+.facebook-icon {
+    font-size: 20px;
+    color: #385185;
+    cursor: pointer;
+    /* margin-top: 10px; */
+    /* background-color: blue; */
+}
+
+.icon-name {
+    margin-top: 0px;
+    margin-left: 8px;
+    color: #385185;
+    text-decoration: none;
+}
+
+.sign-up {
+    width: 350px;
+    /* height: 200px; */
+    border: 1px solid #8080804f;
+    margin-top: 10px;
+}
+
+.foter {
+    width: 350px;
+    margin-top: 30px;
+    color: #afafaf;
+}
+
+.footer {
+    color: #afafaf;
+}
+
+.details {
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 12px;
+    color: #afafaf;
+}
+
+.drag-down-menu {
+    background-color: #ffffff;
+    border: none;
+    color: #afafaf;
+}
+
+@media only screen and (max-width: 768px) {
+    .image-space {
+        display: none;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .main-container {
+        margin-left: 0px;
+    }
+    .login-box {
+        border: none;
+    }
+    .sign-up {
+        border: none;
+    }
+    .footer {
+        margin-top: 20px;
+    }
+}
